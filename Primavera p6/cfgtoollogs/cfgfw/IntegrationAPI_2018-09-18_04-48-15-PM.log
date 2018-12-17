@@ -1,0 +1,7 @@
+INFO: IntegrationAPI:IAction.perform() was called on {Action state:configuration in CfmAggregateInstance: IntegrationAPI:17.2.0.0.0:common:family=CFM:oh=C:\P6IntegrationAPI_1:label=0}
+INFO: IntegrationAPI:About to execute plug-in Database Configuration
+INFO: IntegrationAPI:El plugin Database Configuration se está ejecutando
+INFO: IntegrationAPI:Launching CmdExec
+INFO: IntegrationAPI:ExitCode=0
+INFO: IntegrationAPI:The plug-in Database Configuration executed as attached=true in separate process with exitcode=0
+INFO: IntegrationAPI:El plugin Database Configuration se ha realizado correctamente

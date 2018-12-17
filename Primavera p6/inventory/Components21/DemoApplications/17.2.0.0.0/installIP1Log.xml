@@ -1,0 +1,323 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup4" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="750" TYPE="String" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp1" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demogeneral.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoimport.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoassign.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoexport.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup3" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp2" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoimport.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoexport.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demogeneral.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demoassign.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup2" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp3" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\LoginCallback$LoginInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$LocalAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$BackAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$RemoteAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$CancelAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\ExportDemoApp.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\LoginCallback$DemoInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$BrowseAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\LoginCallback$ConnectionInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$1.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\LoginCallback.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$NextAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\MyExportListener.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$2.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame$LimitedStyledDocument.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\LoginCallback$LoginInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$UpdateProjAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$LocalAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$BackAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$RemoteAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\ImportDemoApp.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$CancelAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$InputBrowseAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\BusinessObjectLoader.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\LoginCallback$DemoInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\LoginCallback$ConnectionInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$1.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$LogBrowseAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$XMLFileFilter.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\LoginCallback.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$NextAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$NewProjAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$2.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame$LimitedStyledDocument.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\LoginCallback$LoginInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$LocalAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$BackAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$RemoteAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$CancelAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\LoginCallback$DemoInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$BrowseAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\LoginCallback$ConnectionInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$1.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\LoginCallback.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$NextAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\AssignmentsDemoApp.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$2.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame$LimitedStyledDocument.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\LoginCallback$LoginInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$LocalAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$BackAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$RemoteAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\GeneralDemoApp.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$CancelAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\LoginCallback$DemoInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\LoginCallback$ConnectionInfo.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$1.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\LoginCallback.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$NextAction.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$2.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame$LimitedStyledDocument.class" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup1" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp4" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\ExportDemoApp.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\LoginCallback.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlexport\WizardFrame.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\BusinessObjectLoader.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\ImportDemoApp.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\LoginCallback.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\xmlimport\WizardFrame.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\AssignmentsDemoApp.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\LoginCallback.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\assignments\WizardFrame.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\GeneralDemoApp.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\LoginCallback.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\demo\general\WizardFrame.java" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

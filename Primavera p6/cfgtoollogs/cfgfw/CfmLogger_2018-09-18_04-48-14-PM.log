@@ -1,0 +1,23 @@
+INFO: Creating new CFM connection
+INFO: Creating a new logger for IntegrationAPI
+INFO: Unmarshalling C:\P6IntegrationAPI_1\inventory\ContentsXML\ConfigXML\IntegrationAPI.17_2_0_0_0.xml
+INFO: Creating a new logger for OuiConfigVariables
+INFO: Unmarshalling C:\P6IntegrationAPI_1\inventory\ContentsXML\ConfigXML\OuiConfigVariables.1_0_0_0_0.xml
+INFO: Aggregate Description IntegrationAPI:17.2.0.0.0:common successfully loaded
+INFO: Aggregate Description OuiConfigVariables:1.0.0.0.0:common successfully loaded
+INFO: Successfully returning from CfmFactory.connect()
+INFO: Cfm.save() was called
+INFO: Cfm.save(): 2 aggregate instances saved
+INFO: IntegrationAPI:IAction.perform() was called on {Action state:configuration in CfmAggregateInstance: IntegrationAPI:17.2.0.0.0:common:family=CFM:oh=C:\P6IntegrationAPI_1:label=0}
+INFO: Framework waiting for Action to complete at 16:48:15.488
+INFO: CfwProgressMonitor:actionProgress:About to perform Action=configuration Status=is running with ActionStep=0 stepIndex=0 microStep=0
+ADVERTENCIA: Failed to read environment variable file C:\P6IntegrationAPI_1\install\envVars.properties: java.io.FileNotFoundException: C:\P6IntegrationAPI_1\install\envVars.properties (El sistema no puede encontrar la ruta especificada)
+INFO: IntegrationAPI:About to execute plug-in Database Configuration
+INFO: IntegrationAPI:El plugin Database Configuration se está ejecutando
+INFO: IntegrationAPI:Launching CmdExec
+INFO: IntegrationAPI:ExitCode=0
+INFO: IntegrationAPI:The plug-in Database Configuration executed as attached=true in separate process with exitcode=0
+INFO: IntegrationAPI:El plugin Database Configuration se ha realizado correctamente
+INFO: done waiting for Action from 16:48:15.488
+INFO: Cfm.save() was called
+INFO: Cfm.save(): 2 aggregate instances saved

@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup3" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp20" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\stopApp.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\XMLimport.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\uninstall.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\ResourceAssignmentLoading.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\APIDocumentation.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\dbconfig.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\license.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\ProgrammersReference.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\XMLexport.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\GeneralDemo.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\startApp.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\images\Readme.ico" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup2" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp21" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\schema\p6events.xsd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup1" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp22" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\schema\p6apibo.xsd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

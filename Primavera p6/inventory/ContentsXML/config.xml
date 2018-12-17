@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<!-- Note: If there are any xml tools listed for suppression, the suppression shall be ignored and the xml tools shall be considered for execution during installation -->
+<CONFIG_LIST>
+<COMP NAME="IntegrationAPI" VER="17.2.0.0.0" PLAT="NT_X86">
+   <CT NAME="configtool1" NAME_ID="configtool1_ALL" DESC_ID="configtool1_DESC_ALL" LOC="" AGGREGATE_NAME="IntegrationAPI.17_2_0_0_0.xml" CLS_NAME="Components.IntegrationAPI.v17_2_0_0_0.PostInstallTool0" PLAT="NT_X86"/>
+</COMP>
+</CONFIG_LIST>

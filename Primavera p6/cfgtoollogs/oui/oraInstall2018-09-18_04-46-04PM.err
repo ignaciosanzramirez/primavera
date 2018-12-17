@@ -1,0 +1,9 @@
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at oracle.sysman.oii.oiif.oiifw.OiifwDeinstallPhaseWCCE.getDeinstCompIDOHPairListGrpByHome(OiifwDeinstallPhaseWCCE.java:1665)
+	at oracle.sysman.oii.oiif.oiifw.OiifwDeinstallPhaseWCCE.doConfigDeinstallsByCF(OiifwDeinstallPhaseWCCE.java:1372)
+	at oracle.sysman.oii.oiif.oiifw.OiifwDeinstallPhaseWCCE.doOperation(OiifwDeinstallPhaseWCCE.java:406)
+	at oracle.sysman.oii.oiif.oiifb.OiifbCondIterator.iterate(OiifbCondIterator.java:171)
+	at oracle.sysman.oii.oiif.oiifw.OiifwActionsPhaseWCDE.doOperation(OiifwActionsPhaseWCDE.java:619)
+	at oracle.sysman.oii.oiic.OiicDeinstallSession$OiicActionsThread.run(OiicDeinstallSession.java:2558)
+log4j:WARN No appenders could be found for logger (com.primavera.bre.SystemApplicationContext).
+log4j:WARN Please initialize the log4j system properly.

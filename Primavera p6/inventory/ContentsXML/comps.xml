@@ -1,0 +1,247 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<PRD_LIST>
+<TL_LIST>
+<COMP NAME="IntegrationAPI" VER="17.2.0.0.0" BUILD_NUMBER="0" REP_VER="0.0.0.0.0" RELEASE="Production" INV_LOC="Components/IntegrationAPI/17.2.0.0.0/1/" LANGS="en" XML_INV_LOC="Components21/IntegrationAPI/17.2.0.0.0/" ACT_INST_VER="11.1.0.7.0" DEINST_VER="11.1.0.0.0" INSTALL_TIME="2018.Sep.18 16:48:13 CEST" INST_LOC="C:\P6IntegrationAPI_1\IntegrationAPI">
+   <EXT_NAME>Integration API</EXT_NAME>
+   <DESC></DESC>
+   <DESCID>COMPONENT_DESC</DESCID>
+   <STG_INFO OSP_VER="10.2.0.0.0"/>
+   <CMP_JAR_INFO>
+      <INFO NAME="filemapObj" VAL="Components/IntegrationAPI/v17_2_0_0_0/filemap.xml"/>
+      <INFO NAME="helpDir" VAL="Components/IntegrationAPI/v17_2_0_0_0/help/"/>
+      <INFO NAME="actionsClass" VAL="Components.IntegrationAPI.v17_2_0_0_0.CompActions"/>
+      <INFO NAME="resourceClass" VAL="Components.IntegrationAPI.v17_2_0_0_0.resources.CompRes"/>
+      <INFO NAME="identifiersXML" VAL="Components/IntegrationAPI/v17_2_0_0_0/identifiers.xml"/>
+      <INFO NAME="contextClass" VAL="Components.IntegrationAPI.v17_2_0_0_0.CompContext"/>
+      <INFO NAME="fastCopyLogXML" VAL="Components/IntegrationAPI/v17_2_0_0_0/fastCopyLog.xml"/>
+   </CMP_JAR_INFO>
+   <LOC_INFO INST_DFN_LOC="../Scripts" JAR_NAME="install1.jar"/>
+   <BOOK NAME="IntegrationAPI.hs"/>
+   <PRE_REQ DEF="F"/>
+   <PROD_HOME DEF="F"/>
+   <LANG_IDX_MAP>
+      <LANG LIST="en"/>
+      <LANGSET IDX="1" BITSET="{0}"/>
+   </LANG_IDX_MAP>
+   <PLAT_IDX_MAP>
+      <PLAT LIST="453 173 610 2 197 46 110 912 208 233 615 50 601"/>
+   </PLAT_IDX_MAP>
+   <DST_IDX_MAP>
+      <DST LIST="%INVENTORY_LOCATION% %ORACLE_HOME%"/>
+   </DST_IDX_MAP>
+   <DEP_GRP_LIST>
+      <DEP_GRP NAME="group1" EXT_NAME="group1" TYPE="R">
+         <DEP_LIST>
+            <DEP NAME="APIClientSideComponents" VER="17.2.0.0.0" PLAT="NT_X86"/>
+         </DEP_LIST>
+      </DEP_GRP>
+      <DEP_GRP NAME="group2" EXT_NAME="group2" TYPE="O">
+         <DEP_LIST>
+            <DEP NAME="APIServerSideComponents" VER="17.2.0.0.0" PLAT="NT_X86"/>
+         </DEP_LIST>
+      </DEP_GRP>
+      <DEP_GRP NAME="group4" EXT_NAME="group4" TYPE="O">
+         <DEP_LIST>
+            <DEP NAME="APIClientJars" VER="17.2.0.0.0" PLAT="NT_X86"/>
+         </DEP_LIST>
+      </DEP_GRP>
+      <DEP_GRP NAME="group5" EXT_NAME="group5" TYPE="O">
+         <DEP_LIST>
+            <DEP NAME="APIJavadoc" VER="17.2.0.0.0" PLAT="NT_X86"/>
+            <DEP NAME="DemoApplications" VER="17.2.0.0.0" PLAT="NT_X86"/>
+         </DEP_LIST>
+      </DEP_GRP>
+   </DEP_GRP_LIST>
+   <DEP_LIST>
+      <DEP NAME="APIClientSideComponents" VER="17.2.0.0.0" DEP_GRP_NAME="group1" HOME_IDX="1"/>
+      <DEP NAME="APIServerSideComponents" VER="17.2.0.0.0" DEP_GRP_NAME="group2" HOME_IDX="1"/>
+      <DEP NAME="APIJavadoc" VER="17.2.0.0.0" DEP_GRP_NAME="group5" HOME_IDX="1"/>
+      <DEP NAME="DemoApplications" VER="17.2.0.0.0" DEP_GRP_NAME="group5" HOME_IDX="1"/>
+   </DEP_LIST>
+   <REF_LIST>
+      <REF NAME="IntegrationAPI" VER="17.2.0.0.0" HOME_IDX="1"/>
+   </REF_LIST>
+   <INST_TYPE_LIST>
+      <INST_TYPE NAME="install_type_1" NAME_ID="install_type_1" DESC_ID="install_type_1_DESC"/>
+   </INST_TYPE_LIST>
+   <FILESIZEINFO>
+      <DEST VOLUME="%INVENTORY_LOCATION%" SPACE_REQ="2000"/>
+      <DEST VOLUME="%ORACLE_HOME%" SPACE_REQ="11922"/>
+   </FILESIZEINFO>
+</COMP>
+</TL_LIST>
+<COMP_LIST>
+<COMP NAME="DemoApplications" VER="17.2.0.0.0" BUILD_NUMBER="0" REP_VER="0.0.0.0.0" RELEASE="Production" INV_LOC="Components/DemoApplications/17.2.0.0.0/1/" LANGS="en" XML_INV_LOC="Components21/DemoApplications/17.2.0.0.0/" ACT_INST_VER="11.1.0.7.0" DEINST_VER="11.1.0.0.0" INSTALL_TIME="2018.Sep.18 16:48:13 CEST" INST_LOC="C:\P6IntegrationAPI_1\DemoApplications">
+   <EXT_NAME>Integration Demo Applications</EXT_NAME>
+   <DESC></DESC>
+   <DESCID>COMPONENT_DESC</DESCID>
+   <STG_INFO OSP_VER="10.2.0.0.0"/>
+   <CMP_JAR_INFO>
+      <INFO NAME="filemapObj" VAL="Components/DemoApplications/v17_2_0_0_0/filemap.xml"/>
+      <INFO NAME="helpDir" VAL="Components/DemoApplications/v17_2_0_0_0/help/"/>
+      <INFO NAME="actionsClass" VAL="Components.DemoApplications.v17_2_0_0_0.CompActions"/>
+      <INFO NAME="resourceClass" VAL="Components.DemoApplications.v17_2_0_0_0.resources.CompRes"/>
+      <INFO NAME="identifiersXML" VAL="Components/DemoApplications/v17_2_0_0_0/identifiers.xml"/>
+      <INFO NAME="contextClass" VAL="Components.DemoApplications.v17_2_0_0_0.CompContext"/>
+      <INFO NAME="fastCopyLogXML" VAL="Components/DemoApplications/v17_2_0_0_0/fastCopyLog.xml"/>
+   </CMP_JAR_INFO>
+   <LOC_INFO INST_DFN_LOC="../Scripts" JAR_NAME="install1.jar"/>
+   <BOOK NAME="DemoApplications.hs"/>
+   <PRE_REQ DEF="F"/>
+   <PROD_HOME DEF="F"/>
+   <LANG_IDX_MAP>
+      <LANG LIST="en"/>
+      <LANGSET IDX="1" BITSET="{0}"/>
+   </LANG_IDX_MAP>
+   <PLAT_IDX_MAP>
+      <PLAT LIST="453 173 610 2 197 46 110 912 208 233 615 50 601"/>
+      <PLATSET IDX="1" BITSET="{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}"/>
+   </PLAT_IDX_MAP>
+   <DST_IDX_MAP>
+      <DST LIST="%ORACLE_HOME% %INVENTORY_LOCATION%"/>
+   </DST_IDX_MAP>
+   <DEP_GRP_LIST/>
+   <DEP_LIST/>
+   <REF_LIST>
+      <REF NAME="IntegrationAPI" VER="17.2.0.0.0" HOME_IDX="1"/>
+   </REF_LIST>
+   <INST_TYPE_LIST>
+      <INST_TYPE NAME="Minimum" NAME_ID="Minimum" DESC_ID="Minimum_DESC"/>
+   </INST_TYPE_LIST>
+   <FILESIZEINFO>
+      <DEST VOLUME="%ORACLE_HOME%" SPACE_REQ="385101"/>
+      <DEST VOLUME="%INVENTORY_LOCATION%" SPACE_REQ="2000"/>
+   </FILESIZEINFO>
+</COMP>
+<COMP NAME="APIJavadoc" VER="17.2.0.0.0" BUILD_NUMBER="0" REP_VER="0.0.0.0.0" RELEASE="Production" INV_LOC="Components/APIJavadoc/17.2.0.0.0/1/" LANGS="en" XML_INV_LOC="Components21/APIJavadoc/17.2.0.0.0/" ACT_INST_VER="11.1.0.7.0" DEINST_VER="11.1.0.0.0" INSTALL_TIME="2018.Sep.18 16:48:13 CEST" INST_LOC="C:\P6IntegrationAPI_1\APIJavadoc">
+   <EXT_NAME>Integration API Javadoc</EXT_NAME>
+   <DESC></DESC>
+   <DESCID>COMPONENT_DESC</DESCID>
+   <STG_INFO OSP_VER="10.2.0.0.0"/>
+   <CMP_JAR_INFO>
+      <INFO NAME="filemapObj" VAL="Components/APIJavadoc/v17_2_0_0_0/filemap.xml"/>
+      <INFO NAME="helpDir" VAL="Components/APIJavadoc/v17_2_0_0_0/help/"/>
+      <INFO NAME="actionsClass" VAL="Components.APIJavadoc.v17_2_0_0_0.CompActions"/>
+      <INFO NAME="resourceClass" VAL="Components.APIJavadoc.v17_2_0_0_0.resources.CompRes"/>
+      <INFO NAME="identifiersXML" VAL="Components/APIJavadoc/v17_2_0_0_0/identifiers.xml"/>
+      <INFO NAME="contextClass" VAL="Components.APIJavadoc.v17_2_0_0_0.CompContext"/>
+      <INFO NAME="fastCopyLogXML" VAL="Components/APIJavadoc/v17_2_0_0_0/fastCopyLog.xml"/>
+   </CMP_JAR_INFO>
+   <LOC_INFO INST_DFN_LOC="../Scripts" JAR_NAME="install1.jar"/>
+   <BOOK NAME="APIJavadoc.hs"/>
+   <PRE_REQ DEF="F"/>
+   <PROD_HOME DEF="F"/>
+   <LANG_IDX_MAP>
+      <LANG LIST="en"/>
+      <LANGSET IDX="1" BITSET="{0}"/>
+   </LANG_IDX_MAP>
+   <PLAT_IDX_MAP>
+      <PLAT LIST="453 173 610 2 197 46 110 912 208 233 615 50 601"/>
+      <PLATSET IDX="1" BITSET="{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}"/>
+   </PLAT_IDX_MAP>
+   <DST_IDX_MAP>
+      <DST LIST="%ORACLE_HOME% %INVENTORY_LOCATION%"/>
+   </DST_IDX_MAP>
+   <DEP_GRP_LIST/>
+   <DEP_LIST/>
+   <REF_LIST>
+      <REF NAME="IntegrationAPI" VER="17.2.0.0.0" HOME_IDX="1"/>
+   </REF_LIST>
+   <INST_TYPE_LIST>
+      <INST_TYPE NAME="Minimum" NAME_ID="Minimum" DESC_ID="Minimum_DESC"/>
+   </INST_TYPE_LIST>
+   <FILESIZEINFO>
+      <DEST VOLUME="%ORACLE_HOME%" SPACE_REQ="58958682"/>
+      <DEST VOLUME="%INVENTORY_LOCATION%" SPACE_REQ="2000"/>
+   </FILESIZEINFO>
+</COMP>
+<COMP NAME="APIServerSideComponents" VER="17.2.0.0.0" BUILD_NUMBER="0" REP_VER="0.0.0.0.0" RELEASE="Production" INV_LOC="Components/APIServerSideComponents/17.2.0.0.0/1/" LANGS="en" XML_INV_LOC="Components21/APIServerSideComponents/17.2.0.0.0/" ACT_INST_VER="11.1.0.7.0" DEINST_VER="11.1.0.0.0" INSTALL_TIME="2018.Sep.18 16:48:13 CEST" INST_LOC="C:\P6IntegrationAPI_1\APIServerSideComponents">
+   <EXT_NAME>Integration API Server Side Components</EXT_NAME>
+   <DESC></DESC>
+   <DESCID>COMPONENT_DESC</DESCID>
+   <STG_INFO OSP_VER="10.2.0.0.0"/>
+   <CMP_JAR_INFO>
+      <INFO NAME="filemapObj" VAL="Components/APIServerSideComponents/v17_2_0_0_0/filemap.xml"/>
+      <INFO NAME="helpDir" VAL="Components/APIServerSideComponents/v17_2_0_0_0/help/"/>
+      <INFO NAME="actionsClass" VAL="Components.APIServerSideComponents.v17_2_0_0_0.CompActions"/>
+      <INFO NAME="resourceClass" VAL="Components.APIServerSideComponents.v17_2_0_0_0.resources.CompRes"/>
+      <INFO NAME="identifiersXML" VAL="Components/APIServerSideComponents/v17_2_0_0_0/identifiers.xml"/>
+      <INFO NAME="contextClass" VAL="Components.APIServerSideComponents.v17_2_0_0_0.CompContext"/>
+      <INFO NAME="fastCopyLogXML" VAL="Components/APIServerSideComponents/v17_2_0_0_0/fastCopyLog.xml"/>
+   </CMP_JAR_INFO>
+   <LOC_INFO INST_DFN_LOC="../Scripts" JAR_NAME="install1.jar"/>
+   <BOOK NAME="APIServerSideComponents.hs"/>
+   <PRE_REQ DEF="F"/>
+   <PROD_HOME DEF="F"/>
+   <LANG_IDX_MAP>
+      <LANG LIST="en"/>
+      <LANGSET IDX="1" BITSET="{0}"/>
+   </LANG_IDX_MAP>
+   <PLAT_IDX_MAP>
+      <PLAT LIST="453 173 610 2 197 46 110 912 208 233 615 50 601"/>
+      <PLATSET IDX="1" BITSET="{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}"/>
+   </PLAT_IDX_MAP>
+   <DST_IDX_MAP>
+      <DST LIST="%ORACLE_HOME% %INVENTORY_LOCATION%"/>
+   </DST_IDX_MAP>
+   <DEP_GRP_LIST/>
+   <DEP_LIST/>
+   <REF_LIST>
+      <REF NAME="IntegrationAPI" VER="17.2.0.0.0" HOME_IDX="1"/>
+   </REF_LIST>
+   <INST_TYPE_LIST>
+      <INST_TYPE NAME="Minimum" NAME_ID="Minimum" DESC_ID="Minimum_DESC"/>
+   </INST_TYPE_LIST>
+   <FILESIZEINFO>
+      <DEST VOLUME="%ORACLE_HOME%" SPACE_REQ="21546208"/>
+      <DEST VOLUME="%INVENTORY_LOCATION%" SPACE_REQ="2000"/>
+   </FILESIZEINFO>
+</COMP>
+<COMP NAME="APIClientSideComponents" VER="17.2.0.0.0" BUILD_NUMBER="0" REP_VER="0.0.0.0.0" RELEASE="Production" INV_LOC="Components/APIClientSideComponents/17.2.0.0.0/1/" LANGS="en" XML_INV_LOC="Components21/APIClientSideComponents/17.2.0.0.0/" ACT_INST_VER="11.1.0.7.0" DEINST_VER="11.1.0.0.0" INSTALL_TIME="2018.Sep.18 16:48:13 CEST" INST_LOC="C:\P6IntegrationAPI_1\APIClientSideComponents">
+   <EXT_NAME>Integration API Client Side Components</EXT_NAME>
+   <DESC></DESC>
+   <DESCID>COMPONENT_DESC</DESCID>
+   <STG_INFO OSP_VER="10.2.0.0.0"/>
+   <CMP_JAR_INFO>
+      <INFO NAME="filemapObj" VAL="Components/APIClientSideComponents/v17_2_0_0_0/filemap.xml"/>
+      <INFO NAME="helpDir" VAL="Components/APIClientSideComponents/v17_2_0_0_0/help/"/>
+      <INFO NAME="actionsClass" VAL="Components.APIClientSideComponents.v17_2_0_0_0.CompActions"/>
+      <INFO NAME="resourceClass" VAL="Components.APIClientSideComponents.v17_2_0_0_0.resources.CompRes"/>
+      <INFO NAME="identifiersXML" VAL="Components/APIClientSideComponents/v17_2_0_0_0/identifiers.xml"/>
+      <INFO NAME="contextClass" VAL="Components.APIClientSideComponents.v17_2_0_0_0.CompContext"/>
+      <INFO NAME="fastCopyLogXML" VAL="Components/APIClientSideComponents/v17_2_0_0_0/fastCopyLog.xml"/>
+   </CMP_JAR_INFO>
+   <LOC_INFO INST_DFN_LOC="../Scripts" JAR_NAME="install1.jar"/>
+   <BOOK NAME="APIClientSideComponents.hs"/>
+   <PRE_REQ DEF="F"/>
+   <PROD_HOME DEF="F"/>
+   <LANG_IDX_MAP>
+      <LANG LIST="en"/>
+      <LANGSET IDX="1" BITSET="{0}"/>
+   </LANG_IDX_MAP>
+   <PLAT_IDX_MAP>
+      <PLAT LIST="453 173 610 2 197 46 110 912 208 233 615 50 601"/>
+      <PLATSET IDX="1" BITSET="{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}"/>
+   </PLAT_IDX_MAP>
+   <DST_IDX_MAP>
+      <DST LIST="%ORACLE_HOME% %INVENTORY_LOCATION%"/>
+   </DST_IDX_MAP>
+   <DEP_GRP_LIST/>
+   <DEP_LIST/>
+   <REF_LIST>
+      <REF NAME="IntegrationAPI" VER="17.2.0.0.0" HOME_IDX="1"/>
+   </REF_LIST>
+   <INST_TYPE_LIST>
+      <INST_TYPE NAME="Minimum" NAME_ID="Minimum" DESC_ID="Minimum_DESC"/>
+   </INST_TYPE_LIST>
+   <FILESIZEINFO>
+      <DEST VOLUME="%ORACLE_HOME%" SPACE_REQ="551099"/>
+      <DEST VOLUME="%INVENTORY_LOCATION%" SPACE_REQ="2000"/>
+   </FILESIZEINFO>
+</COMP>
+</COMP_LIST>
+<ONEOFF_LIST>
+</ONEOFF_LIST>
+</PRD_LIST>

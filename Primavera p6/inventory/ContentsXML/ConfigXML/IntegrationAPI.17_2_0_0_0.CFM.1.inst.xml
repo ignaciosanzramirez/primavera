@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ins:AggregateInstance
+xmlns:ins="http://www.oracle.com/sysman/emCfg/AggregateInstance"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.oracle.com/sysman/emCfg/AggregateInstance oracle/sysman/emCfg/main/AggregateInstance.xsd"
+schemaVersion="1.0.0"
+family="CFM"
+timestamp="1537282163483"
+version="17.2.0.0.0"
+label="1">
+	<ins:Aggregate id="IntegrationAPI" phase="N" type="COMPLEX" status="UNKNOWN" />
+	<ins:PlugIn id="Database Configuration" isActive="true" />
+	<ins:Parameter id="ORACLE_HOME" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">433a5c5036496e746567726174696f6e4150495f31</ins:HexedData>
+	</ins:Parameter>
+	<ins:AggregateRef  wasAvailable="true" nsref="common" idRef="OuiConfigVariables" versionRef="1.0.0.0.0" labelRef="1" familyRef="CFM" isActive="false" />
+	<ins:Action id="addingnode" status="NOT_PERFORMED" >
+		<ins:ActionStep status="NOT_PERFORMED" index="0" priority="0" >
+		</ins:ActionStep>
+	</ins:Action>
+	<ins:Action id="cloningdrastic" status="NOT_PERFORMED" >
+		<ins:ActionStep status="NOT_PERFORMED" index="0" priority="0" >
+		</ins:ActionStep>
+	</ins:Action>
+	<ins:Action id="purgingdrastic" status="NOT_PERFORMED" >
+		<ins:ActionStep status="NOT_PERFORMED" index="0" priority="0" >
+		</ins:ActionStep>
+	</ins:Action>
+	<ins:Action id="configuration" status="PERFORMED_SUCCESS" >
+		<ins:NormalRequest blocking="true" isSilently="false" retry="false" actionType="configuration" skipDetached="true" />
+		<ins:ActionStep status="PERFORMED_SUCCESS" index="0" priority="0" >
+			<ins:ExternalProgramInvocation status="PERFORMED_SUCCESS" executable="C:\P6IntegrationAPI_1/dbconfig.cmd" isActive="true" stderr="log4j:WARN No appenders could be found for logger (com.primavera.bre.SystemApplicationContext).
+log4j:WARN Please initialize the log4j system properly.
+" stdout="Running Database Configuration...
+Done.
+" errorcode="0" >
+			</ins:ExternalProgramInvocation>
+		</ins:ActionStep>
+	</ins:Action>
+</ins:AggregateInstance>

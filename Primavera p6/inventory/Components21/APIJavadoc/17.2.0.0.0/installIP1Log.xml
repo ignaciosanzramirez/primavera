@@ -1,0 +1,2564 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup1" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp5" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\stylesheet.css" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\overview-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\constant-values.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\help-doc.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\allclasses-noframe.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\deprecated-list.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\serialized-form.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\allclasses-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\package-list" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\script.js" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\FieldSummary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\overview-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\overview-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-12.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-26.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-18.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-21.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-7.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-5.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-13.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-1.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-25.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-2.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-15.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-23.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-16.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-14.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-8.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-17.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-24.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-10.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-19.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-11.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-20.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-6.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-9.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-22.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-4.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\index-files\index-3.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\LicenseException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\PrimaveraException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\PhoenixException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\ServerException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\BatchException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\class-use\LicenseException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\class-use\PrimaveraException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\class-use\PhoenixException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\class-use\ServerException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\class-use\BatchException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\Session.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\RMIURL.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\ClientException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\JobManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\EnterpriseLoadManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\VersionInfo.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\LocalSession.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\DistributedSession.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\GlobalObjectManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\Session.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\RMIURL.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\ClientException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\JobManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\EnterpriseLoadManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\VersionInfo.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\LocalSession.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\DistributedSession.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\class-use\GlobalObjectManager.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\XMLProcessingException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\XMLExporterEvent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\XMLExporterException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\XMLExporter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\XMLExporterListener.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\XMLExporterParams.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\class-use\XMLExporterEvent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\class-use\XMLExporterException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\class-use\XMLExporter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\class-use\XMLExporterListener.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlexporter\class-use\XMLExporterParams.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\class-use\XMLProcessingException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\XMLImporterException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\XMLImporter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\ImportOption.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\class-use\XMLImporterException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\class-use\XMLImporter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\class-use\ImportOption.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\ImportEventsListener.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\ImportEvent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\class-use\ImportEventsListener.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\xml\xmlimporter\event\class-use\ImportEvent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\InvalidValueException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\BusinessObject.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\FieldNotLoadedException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.ExpenseCategorySpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.RoleSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\InvalidFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.ResourceSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\OrderByFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\WhereClauseFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.PrimarySpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\BusinessObjectException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.WBSSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\WhereClauseException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\BOHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\BOIterator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.ProjectSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\SpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\InvalidValueException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\BusinessObject.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\FieldNotLoadedException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.ExpenseCategorySpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.RoleSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\InvalidFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.ResourceSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\OrderByFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\WhereClauseFieldException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.PrimarySpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\BusinessObjectException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.WBSSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\WhereClauseException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\BOHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\BOIterator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.ProjectSpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\class-use\SpreadOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityStepTemplate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UserFieldTitle.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ShiftPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UDFCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\EPSBudgetChangeLog.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectDocument.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\FundingSource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ExpenseCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\BaselineType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Shift.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Calendar.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\EPSSpendingPlan.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityRisk.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\User.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectResourceQuantity.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\TimesheetDelegate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityComment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\WBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Project.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceRole.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Resource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\RoleTeam.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Risk.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Role.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\BaselineProject.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\RoleRate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\CostAccount.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceRate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityStepTemplateItem.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ScheduleOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceAssignmentPeriodActual.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectPortfolio.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\TimesheetPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\RoleLimit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceTeam.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectFunding.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UserInterfaceView.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\NotebookTopic.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Document.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\GlobalProfile.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\DocumentCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Timesheet.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityExpense.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ThresholdParameter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\DocumentStatusCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectSpendingPlan.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectCodeUser.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceAccess.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Currency.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UnitOfMeasure.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceHour.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\EPS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\OverheadCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectResourceCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UserLicense.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\TimesheetAudit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectIssue.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\WBSMilestone.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectThreshold.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\IssueHistory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\EPSNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectResource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UDFValue.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ResourceCurve.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\GlobalPreferences.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UDFType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityOwner.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Activity.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\EPSFunding.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\RiskCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityStep.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\Relationship.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\WBSCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\UserOBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\OBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\FinancialPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectProfile.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectBudgetChangeLog.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ActivityPeriodActual.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\ProjectCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityStepTemplate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UserFieldTitle.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ShiftPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UDFCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\EPSBudgetChangeLog.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectDocument.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\FundingSource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ExpenseCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\BaselineType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Shift.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Calendar.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\EPSSpendingPlan.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityRisk.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\User.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectResourceQuantity.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\TimesheetDelegate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityComment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\WBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Project.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceRole.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Resource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\RoleTeam.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Risk.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Role.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\BaselineProject.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\RoleRate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\CostAccount.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceRate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityStepTemplateItem.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ScheduleOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceAssignmentPeriodActual.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectPortfolio.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\TimesheetPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\RoleLimit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceTeam.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectFunding.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UserInterfaceView.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\NotebookTopic.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Document.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\GlobalProfile.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\DocumentCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Timesheet.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityCodeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityExpense.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ThresholdParameter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\DocumentStatusCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectSpendingPlan.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectCodeUser.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceAccess.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Currency.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UnitOfMeasure.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceHour.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\EPS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\OverheadCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectResourceCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UserLicense.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\TimesheetAudit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectIssue.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\WBSMilestone.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectThreshold.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\IssueHistory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\EPSNote.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectResource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UDFValue.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ResourceCurve.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\GlobalPreferences.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UDFType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityOwner.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Activity.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\EPSFunding.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\RiskCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityStep.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\Relationship.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\WBSCategory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\UserOBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\OBS.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityCodeAssignment.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\FinancialPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectProfile.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectBudgetChangeLog.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ActivityPeriodActual.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\object\class-use\ProjectCode.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\PercentCompleteType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\IntegratedProjectType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\UDFSubjectArea.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskProbability.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\UDFIndicator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RateSource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ActivityCodeTypeScope.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\IssuePriority.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\EnumType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\AssignmentStaffingPreference.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\AccrualType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\TimesheetApprovingAs.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DurationType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\TimesheetPeriodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\EarnedValueETCComputeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\GlobalPrivilege.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\CriticalActivityPathType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RoleLimitDisplayOption.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RelationshipType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\EmailType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\SpreadPeriodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\UnitType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DiscountApplicationPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DefaultRateType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskResponseActionStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RateType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\UDFDataType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\JobStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ThresholdStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ThresholdParameterType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ThresholdMonitorDetail.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ActivityStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\PortfolioType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\OutOfSequenceScheduleType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\NegativeCurrencyFormat.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ProjectStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\SummaryLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DocumentManagementSecurityPolicy.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ScheduleRelationshipLagCalendar.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\BudgetChangeStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\TimesheetStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ActivityType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ImpactLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\CalendarType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\IntegratedObjectType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\LevelingPriority.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\JobType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ScheduleFloatType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskResponseType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\EarnedValueComputeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DayOfWeekType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RiskScoreMatrixMethod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ResourceHourStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\DocumentType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ResourceType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\SummarySpreadInterval.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\CriterionType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\EarnedValueCalculationType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\RateSourcePreference.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ProjectRiskLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\CurrencySeparator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ThresholdType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\LicenseType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\PositiveCurrencyFormat.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ConstraintType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\IssueStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\Proficiency.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\UDFSummaryMethodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ProjectPrivilege.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\ReviewStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\PercentCompleteType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\IntegratedProjectType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\UDFSubjectArea.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskProbability.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\UDFIndicator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RateSource.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ActivityCodeTypeScope.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\IssuePriority.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\EnumType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\AssignmentStaffingPreference.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\AccrualType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\TimesheetApprovingAs.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DurationType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\TimesheetPeriodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\EarnedValueETCComputeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\GlobalPrivilege.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\CriticalActivityPathType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RoleLimitDisplayOption.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RelationshipType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\EmailType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\SpreadPeriodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\UnitType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DiscountApplicationPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DefaultRateType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskResponseActionStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RateType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\UDFDataType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\JobStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ThresholdStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ThresholdParameterType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ThresholdMonitorDetail.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ActivityStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\PortfolioType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\OutOfSequenceScheduleType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\NegativeCurrencyFormat.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ProjectStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\SummaryLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DocumentManagementSecurityPolicy.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ScheduleRelationshipLagCalendar.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\BudgetChangeStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\TimesheetStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ActivityType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ImpactLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\CalendarType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\IntegratedObjectType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\LevelingPriority.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\JobType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ScheduleFloatType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskResponseType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\EarnedValueComputeType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DayOfWeekType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RiskScoreMatrixMethod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ResourceHourStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\DocumentType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ResourceType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\SummarySpreadInterval.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\CriterionType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\EarnedValueCalculationType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\RateSourcePreference.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ProjectRiskLevel.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\CurrencySeparator.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ThresholdType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\LicenseType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\PositiveCurrencyFormat.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ConstraintType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\IssueStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\Proficiency.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\UDFSummaryMethodType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ProjectPrivilege.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\enm\class-use\ReviewStatus.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\CostAccountHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectDocumentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\NotebookTopicHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectFundingHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UserLicenseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\BaselineTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityStepTemplateItemHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectProfileHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\CurrencyHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ShiftHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectResourceQuantityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\WBSMilestoneHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UserInterfaceViewHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\CalendarHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\DocumentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\EPSFundingHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RiskCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceCurveHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectThresholdHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\BaselineProjectHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ThresholdParameterHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityCommentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceRateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceRoleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UDFValueHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RelationshipHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\DocumentCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\BOHelperMap.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectBudgetChangeLogHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\OverheadCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\GlobalProfileHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectPortfolioHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UDFCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceHourHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UnitOfMeasureHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\GlobalPreferencesHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RoleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\IssueHistoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\EPSSpendingPlanHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RoleLimitHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceTeamHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UserOBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityExpenseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceAssignmentPeriodActualHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\OBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\EPSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\FinancialPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\WBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\EPSBudgetChangeLogHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RoleTeamHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityOwnerHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\TimesheetDelegateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\EPSNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ExpenseCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectSpendingPlanHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\TimesheetAuditHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\WBSCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\TimesheetHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceAccessHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ShiftPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\DocumentStatusCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ScheduleOptionsHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectResourceCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ResourceAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityStepTemplateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UDFTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityPeriodActualHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\FundingSourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UserFieldTitleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityRiskHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectIssueHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RoleRateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\TimesheetPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ActivityStepHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\RiskHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\UserHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectCodeUserHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\ProjectResourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\CostAccountHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectDocumentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\NotebookTopicHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectFundingHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UserLicenseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\BaselineTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityStepTemplateItemHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectProfileHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\CurrencyHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ShiftHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectResourceQuantityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\WBSMilestoneHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UserInterfaceViewHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\CalendarHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\DocumentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\EPSFundingHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RiskCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceCurveHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectThresholdHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\BaselineProjectHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ThresholdParameterHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityCommentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceRateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceRoleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UDFValueHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RelationshipHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\DocumentCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\BOHelperMap.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectBudgetChangeLogHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\OverheadCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceCodeAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\GlobalProfileHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectPortfolioHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UDFCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceHourHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UnitOfMeasureHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\GlobalPreferencesHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RoleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\IssueHistoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\EPSSpendingPlanHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RoleLimitHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceTeamHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UserOBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityExpenseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceAssignmentPeriodActualHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\OBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\EPSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\FinancialPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\WBSHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectCodeTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\EPSBudgetChangeLogHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RoleTeamHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityOwnerHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\TimesheetDelegateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\EPSNoteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ExpenseCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectSpendingPlanHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\TimesheetAuditHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\WBSCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\TimesheetHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceAccessHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ShiftPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\DocumentStatusCodeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ScheduleOptionsHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectResourceCategoryHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ResourceAssignmentHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityStepTemplateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UDFTypeHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityPeriodActualHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\FundingSourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UserFieldTitleHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityRiskHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectIssueHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RoleRateHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\TimesheetPeriodHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ActivityStepHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\RiskHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\UserHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectCodeUserHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\client\bo\helper\class-use\ProjectResourceHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\ServiceNotBoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\MalformedRMIURLException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\NetworkException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\RMIConnectionException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\class-use\ServiceNotBoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\class-use\MalformedRMIURLException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\class-use\NetworkException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\network\class-use\RMIConnectionException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\CopyWBSOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\JobId.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\CopyActivityOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\CopyProjectOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\DatabaseInstance.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\JobInfo.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\CopyWBSOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\JobId.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\CopyActivityOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\CopyProjectOptions.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\DatabaseInstance.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\class-use\JobInfo.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\ResourceRequest.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\ResourceRequestCriterion.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\class-use\ResourceRequest.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\common\value\class-use\ResourceRequestCriterion.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\BOHierarchyMap.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\BODeleteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\DayOfWeekHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\XSDHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\ResourceAssignmentSpreadFactory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\SecurityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\KeyNotFoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\WhereClauseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\GUIDConverter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\BOHierarchyMap.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\BODeleteHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\DayOfWeekHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\XSDHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\ResourceAssignmentSpreadFactory.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\SecurityHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\KeyNotFoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\WhereClauseHelper.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\integration\util\class-use\GUIDConverter.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\InvalidBootstrapException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\InvalidAuthenticationModeException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\DatabaseConfigurationException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\InvalidCredentialsException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\LicenseServiceException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\class-use\InvalidBootstrapException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\class-use\InvalidAuthenticationModeException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\class-use\DatabaseConfigurationException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\class-use\InvalidCredentialsException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\exceptions\class-use\LicenseServiceException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\DBType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\bo\class-use\DBType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\UnitsPerTime.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\Unit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\EndDate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\SpreadBucketType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\BeginDate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\Cost.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\DetailedWorkHours.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\MultipartObjectIdException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\ValueObjectException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\Duration.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\PrmNumber.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\ObjectId.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\SpreadInvalidFieldIndexException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\Percent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\UnitsPerTime.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\Unit.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\EndDate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\SpreadBucketType.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\BeginDate.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\Cost.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\DetailedWorkHours.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\MultipartObjectIdException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\ValueObjectException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\Duration.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\PrmNumber.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\ObjectId.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\SpreadInvalidFieldIndexException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\class-use\Percent.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadNonEditableException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\package-frame.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\package-use.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ResourceAssignmentSpreadPeriodBase.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\EPSSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SummaryAssignmentSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSResourceRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectResourceSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\BaseSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SummaryAssignmentSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectResourceRoleSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ResourceAssignmentSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadFieldNotFoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\EPSSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSResourceSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadOutOfRangeException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ResourceAssignmentSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ActivitySpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSResourceRoleSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ActivitySpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\WBSSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ResourceAssignmentBaseSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadCumulativeDataNotLoadedException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\package-tree.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadData.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\SpreadException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\ProjectResourceRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\package-summary.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadNonEditableException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ResourceAssignmentSpreadPeriodBase.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\EPSSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SummaryAssignmentSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSResourceRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectResourceSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\BaseSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SummaryAssignmentSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectResourceRoleSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ResourceAssignmentSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadFieldNotFoundException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\EPSSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSResourceSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadOutOfRangeException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ResourceAssignmentSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ActivitySpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSResourceRoleSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ActivitySpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\WBSSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ResourceAssignmentBaseSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadCumulativeDataNotLoadedException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadData.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectSpreadPeriod.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\SpreadException.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\docs\api\com\primavera\common\value\spread\class-use\ProjectResourceRoleSpread.html" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

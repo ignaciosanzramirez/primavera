@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<agg:Descriptions xmlns:agg="http://www.oracle.com/sysman/emCfg/AggregateDescriptions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.oracle.com/sysman/emCfg/AggregateDescriptions" platform="Solaris Intel_Solaris IBM_AIX HP_UX HP_IA64 Linux Linux_IA64 NT_X86 NT_IA64 NT_AMD64 W95 W98 NT_Alpha">
+   <agg:SimplestParamModel id="BooleanType">
+      <agg:ParamValueDataType>xsd:boolean</agg:ParamValueDataType>
+   </agg:SimplestParamModel>
+   <agg:SimplestParamModel id="IntType">
+      <agg:ParamValueDataType>xsd:int</agg:ParamValueDataType>
+   </agg:SimplestParamModel>
+   <agg:SimplestParamModel id="StringType">
+      <agg:ParamValueDataType>xsd:string</agg:ParamValueDataType>
+   </agg:SimplestParamModel>
+   <agg:SimplestParamModel id="StringForStringListType">
+      <agg:ParamValueDataType>xsd:string</agg:ParamValueDataType>
+   </agg:SimplestParamModel>
+   <agg:SimplestArrayParamModel id="StringListType" count="-1">
+      <agg:SimplestParameterModelRef idref="StringForStringListType"/>
+   </agg:SimplestArrayParamModel>
+   <agg:ComplexAggregate id="IntegrationAPI">
+      <agg:PlugIn id="Database Configuration" use_command_array="false" display="true" mode="re-runnable" invocation="wait-for" display_id="configtool1_ALL@Components.IntegrationAPI.v17_2_0_0_0.resources.CompRes">
+         <agg:DisplayResourceJar>
+            <agg:Path>inventory\Scripts/install1.jar</agg:Path>
+         </agg:DisplayResourceJar>
+         <agg:CmdExec expand="true">${ORACLE_HOME}/dbconfig.cmd</agg:CmdExec>
+      </agg:PlugIn>
+      <agg:Action id="configuration" types="configuration" ignore_duplicate_references="true">
+         <agg:ActionStep required="false" standaloneonly="false" priority="0">
+            <agg:PlugInInvocation display="true">
+               <agg:PlugInRef idref="Database Configuration"/>
+            </agg:PlugInInvocation>
+         </agg:ActionStep>
+      </agg:Action>
+      <agg:Action id="cloningdrastic" types="cloning:drastic" ignore_duplicate_references="true">
+         <agg:ActionStep required="false" standaloneonly="false" priority="0"/>
+      </agg:Action>
+      <agg:Action id="purgingdrastic" types="purging:drastic" ignore_duplicate_references="true">
+         <agg:ActionStep required="false" standaloneonly="false" priority="0"/>
+      </agg:Action>
+      <agg:Action id="addingnode" types="adding_node" ignore_duplicate_references="true">
+         <agg:ActionStep required="false" standaloneonly="false" priority="0"/>
+      </agg:Action>
+      <agg:VirtualParameter id="ORACLE_HOME" mode="derived" scope="visible" transient="false" encrypt="false">
+         <agg:SimplestParameterModelRef idref="ConfigVarString"/>
+         <agg:SelfDependencyCopyFrom>
+            <agg:ParameterRef owner="OuiConfigVariables" idref="ORACLE_HOME"/>
+         </agg:SelfDependencyCopyFrom>
+      </agg:VirtualParameter>
+      <agg:SimplestAggregateRef idref="OuiConfigVariables" ownership="exclusive"/>
+   </agg:ComplexAggregate>
+</agg:Descriptions>

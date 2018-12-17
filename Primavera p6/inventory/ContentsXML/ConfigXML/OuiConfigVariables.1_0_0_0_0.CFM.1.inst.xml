@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ins:AggregateInstance
+xmlns:ins="http://www.oracle.com/sysman/emCfg/AggregateInstance"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.oracle.com/sysman/emCfg/AggregateInstance oracle/sysman/emCfg/main/AggregateInstance.xsd"
+schemaVersion="1.0.0"
+family="CFM"
+timestamp="1537282163476"
+version="1.0.0.0.0"
+label="1">
+	<ins:Aggregate id="OuiConfigVariables" phase="N" type="SIMPLEST" status="UNKNOWN" />
+	<ins:PlugIn id="OUI_CA" isActive="true" />
+	<ins:Parameter id="ORACLE_HOME_NAME" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">5036496e746567726174696f6e41504931</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="OUICA_CLASSPATH" type="SIMPLEST" status="NO_DATA" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="false">null</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="USE_OLD_INSTALL_PREREQS" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">66616c7365</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="LOCAL_NODE" type="SIMPLEST" status="NO_DATA" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="false">null</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="CLUSTER_NODES" type="SIMPLEST_ARRAY" status="IS_ASSIGNED" >
+		<ins:Dimensions>0</ins:Dimensions>
+		<ins:HexedData isset="true"></ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ROOTSH_LOCATION" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">433a5c5036496e746567726174696f6e4150495f315c726f6f742e7368</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ORACLE_HOME_FOLDER" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">4f7261636c65202d205036496e746567726174696f6e41504931</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ORACLE_HOME_KEY" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">534f4654574152455c4f5241434c455c4b45595f5036496e746567726174696f6e41504931</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="LOG_LOCATION" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">433a5c5036496e746567726174696f6e4150495f315c636667746f6f6c6c6f6773</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="REMOTE_NODES" type="SIMPLEST_ARRAY" status="IS_ASSIGNED" >
+		<ins:Dimensions>0</ins:Dimensions>
+		<ins:HexedData isset="true"></ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ORACLE_HOSTNAME" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">4e6163686f2d416365722e6f7266697361696b632e6c6f63616c</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="SELECTED_LANGUAGES" type="SIMPLEST_ARRAY" status="IS_ASSIGNED" >
+		<ins:Dimensions>1</ins:Dimensions>
+		<ins:HexedData isset="true">656e</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="TOPLEVEL_COMPONENT" type="SIMPLEST" status="NO_DATA" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="false">null</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ORACLE_HOME_SERVICE" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">5036496e746567726174696f6e41504931</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="INVENTORY_LOCATION" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">433a5c50726f6772616d2046696c65732028783836295c4f7261636c655c496e76656e746f7279</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="OUICA_TIMESTAMP" type="SIMPLEST" status="NO_DATA" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="false">null</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="SHOW_SPLASH_SCREEN" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">74727565</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="OUICA_LOGDIR" type="SIMPLEST" status="NO_DATA" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="false">null</ins:HexedData>
+	</ins:Parameter>
+	<ins:Parameter id="ORACLE_HOME" type="SIMPLEST" status="IS_ASSIGNED" >
+		<ins:Dimensions></ins:Dimensions>
+		<ins:HexedData isset="true">433a5c5036496e746567726174696f6e4150495f31</ins:HexedData>
+	</ins:Parameter>
+	<ins:Action id="OUICA" status="NOT_PERFORMED" >
+		<ins:ActionStep status="NOT_PERFORMED" index="0" priority="0" >
+			<ins:ExternalProgramInvocation status="NOT_PERFORMED" executable="null" isActive="true" errorcode="0" >
+			</ins:ExternalProgramInvocation>
+		</ins:ActionStep>
+	</ins:Action>
+</ins:AggregateInstance>

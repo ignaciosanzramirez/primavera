@@ -1,0 +1,134 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\admin.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\dbconfig.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\genkey.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoassign.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demogeneral.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoexport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoimport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoassign.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demogeneral.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoexport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\demoimport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_JAVA_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%java_home%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="changeDir" INSTALL="T" DEINSTALL="T">
+<LIB NAME="generalActions" VER="10.2.0.9.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="directory" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

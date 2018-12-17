@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<LIB_LIST>
+<QUERY_LIST>
+<LIB NAME="generalQueries" VER="10.2.0.2.0" REP_VER="0.0" MIN_INST_VER="11.1.0.0.0" INV_LOC="Queries21/generalQueries/10.2.0.2.0/generalQueries.jar"/>
+<LIB NAME="fileQueries" VER="10.1.0.3.0" REP_VER="0.0" MIN_INST_VER="11.1.0.0.0" INV_LOC="Queries21/fileQueries/10.1.0.3.0/fileQueries.jar"/>
+</QUERY_LIST>
+<DIALOG_LIST>
+<LIB NAME="standardDialogs" VER="10.2.0.1.0" REP_VER="1.0" MIN_INST_VER="10.1.0.2.0" INV_LOC="Dialogs21/standardDialogs/10.2.0.1.0/standardDialogs.jar"/>
+</DIALOG_LIST>
+<ACTION_LIST>
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="11.1.0.7.0" INV_LOC="Actions21/fileActions/10.2.0.6.0/fileActionLib.jar"/>
+<LIB NAME="generalActions" VER="10.2.0.9.0" REP_VER="0.0" MIN_INST_VER="11.1.0.0.0" INV_LOC="Actions21/generalActions/10.2.0.9.0/generalActions.jar"/>
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="11.1.0.0.0" INV_LOC="Actions21/ntw32FoldersActions/10.2.0.3.0/WindowsFolders.jar"/>
+</ACTION_LIST>
+</LIB_LIST>

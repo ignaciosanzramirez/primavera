@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<COMP_CONTEXT>
+   <VAR_LIST SIZE="7">
+      <VAR NAME="needRunDBConfig" TYPE="Boolean" DESC_RES_ID="needRunDBConfig_DESC" SECURE="F" VAL="true" ADV="F" CLONABLE="T" USER_INPUT="CODEBLOCK"/>
+      <VAR NAME="needCheckJavaHome" TYPE="Boolean" DESC_RES_ID="needCheckJavaHome_DESC" SECURE="F" VAL="true" ADV="F" CLONABLE="T" USER_INPUT="CODEBLOCK"/>
+      <VAR NAME="applicationLongName" TYPE="String" DESC_RES_ID="applicationLongName_DESC" SECURE="F" VAL="Primavera Integration API" ADV="F" CLONABLE="T" USER_INPUT="CALC"/>
+      <VAR NAME="PHOENIX_HOME" TYPE="String" DESC_RES_ID="PHOENIX_HOME_DESC" SECURE="F" VAL="q:\pv" ADV="F" CLONABLE="T" USER_INPUT="CALC"/>
+      <VAR NAME="INTG_HOME5" TYPE="String" DESC_RES_ID="INTG_HOME5_DESC" SECURE="F" VAL="q:\pv\projects\Integration" ADV="F" CLONABLE="T" USER_INPUT="CALC"/>
+      <VAR NAME="INTG_FILE_DIR" TYPE="String" DESC_RES_ID="INTG_FILE_DIR_DESC" SECURE="F" VAL="" ADV="F" CLONABLE="T" USER_INPUT="CALC"/>
+      <VAR NAME="java_home" TYPE="String" DESC_RES_ID="java_home_DESC" SECURE="F" VAL="C:\Program Files\Java\jdk1.8.0_151" ADV="F" CLONABLE="T" USER_INPUT="GUI"/>
+      <VAR NAME="PROD_HOME" TYPE="String" DESC_RES_ID="" SECURE="F" VAL="C:\P6IntegrationAPI_1\IntegrationAPI" ADV="F" CLONABLE="T" USER_INPUT="CALC"/>
+   </VAR_LIST>
+   <CONST_LIST SIZE="26">
+      <CONST NAME="GENKEY_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="genkey.cmd"/>
+      <CONST NAME="configtool1_DESC" PLAT_SP="F" TYPE="String" TRANS="T" VAL="configtool1_DESC_ALL"/>
+      <CONST NAME="INTG_FILE_DIR_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="copy from old API IS installer"/>
+      <CONST NAME="DEMO_ASSIGN_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="demoassign.cmd"/>
+      <CONST NAME="INTG_HOME5_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="copy from old API installer"/>
+      <CONST NAME="COMPONENT_DESC" PLAT_SP="F" TYPE="String" TRANS="T" VAL="COMPONENT_DESC_ALL"/>
+      <CONST NAME="needRunDBConfig_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="boolean to tell if need  to run dbconfig"/>
+      <CONST NAME="COMPONENT_NAME" PLAT_SP="F" TYPE="String" TRANS="F" VAL="Integration API"/>
+      <CONST NAME="install_type_1_DESC" PLAT_SP="F" TYPE="String" TRANS="T" VAL="install_type_1_DESC_ALL"/>
+      <CONST NAME="DEMO_GENERAL_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="demogeneral.cmd"/>
+      <CONST NAME="UPDATE_WAR_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="updateWar.cmd"/>
+      <CONST NAME="needCheckJavaHome_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="boolean flag to tell if we need check if JDK home is valid."/>
+      <CONST NAME="DEMO_EXPORT_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="demoexport.cmd"/>
+      <CONST NAME="ADMIN_APP_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="admin.cmd"/>
+      <CONST NAME="DEMO_IMPORT_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="demoimport.cmd"/>
+      <CONST NAME="java_home_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="java_home"/>
+      <CONST NAME="PHOENIX_HOME_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="copy from old API installer"/>
+      <CONST NAME="applicationLongName_DESC" PLAT_SP="F" TYPE="String" TRANS="F" VAL="copy from old API installer"/>
+      <CONST NAME="install_type_1" PLAT_SP="F" TYPE="String" TRANS="T" VAL="install_type_1_ALL"/>
+      <CONST NAME="group5" PLAT_SP="F" TYPE="String" TRANS="T" VAL="group5_ALL"/>
+      <CONST NAME="group4" PLAT_SP="F" TYPE="String" TRANS="T" VAL="group4_ALL"/>
+      <CONST NAME="configtool1" PLAT_SP="F" TYPE="String" TRANS="T" VAL="configtool1_ALL"/>
+      <CONST NAME="group2" PLAT_SP="F" TYPE="String" TRANS="T" VAL="group2_ALL"/>
+      <CONST NAME="DB_CONFIG_EXE" PLAT_SP="T" TYPE="String" TRANS="F" VAL="dbconfig.cmd"/>
+      <CONST NAME="group1" PLAT_SP="F" TYPE="String" TRANS="T" VAL="group1_ALL"/>
+      <CONST NAME="FILE_SEPARATOR" PLAT_SP="T" TYPE="String" TRANS="F" VAL="\"/>
+   </CONST_LIST>
+</COMP_CONTEXT>

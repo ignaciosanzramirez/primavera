@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="General Demo" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\demogeneral.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\GeneralDemo.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="XML Export" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\demoexport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\XMLexport.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="XML Import" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\demoimport.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\XMLimport.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="ResourceAssignment Loading" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\demoassign.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\ResourceAssignmentLoading.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<CLONE_INFO>
+<SESSION_VARS_INFO>
+   <VAR NAME="PROXY_PORT" TYPE="String" VAL="" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Puerto del proxy utilizado para conectar a Oracle Metalink.</DESC>
+      <DESC LANG="en">Puerto del proxy utilizado para conectar a Oracle Metalink.</DESC>
+   </VAR>
+   <VAR NAME="ORACLE_HOME_NAME" TYPE="String" VAL="P6IntegrationAPI1" COMPUTE_AT_CLONE="T" USER_INPUT="T">
+      <DESC LANG="es">Nombre del directorio raíz de Oracle. Usado en la creación de carpetas y servicios.</DESC>
+      <DESC LANG="en">Nombre del directorio raíz de Oracle. Usado en la creación de carpetas y servicios.</DESC>
+   </VAR>
+   <VAR NAME="FROM_LOCATION" TYPE="String" VAL="C:\Users\nacho.ORFISAIKC\Downloads\PPM 17.12\P6Pro_R17.12_Integration_API\Disk1\stage\products.xml" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Ruta de acceso completa a products.xml.</DESC>
+      <DESC LANG="en">Ruta de acceso completa a products.xml.</DESC>
+   </VAR>
+   <VAR NAME="SELECTED_LANGUAGES" TYPE="StringList" VAL="{en}" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">SELECTED_LANGUAGES</DESC>
+      <DESC LANG="en">SELECTED_LANGUAGES</DESC>
+   </VAR>
+   <VAR NAME="DEP_MODE" TYPE="String" VAL="install_type_1" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">{0}</DESC>
+      <DESC LANG="en">{0}</DESC>
+   </VAR>
+   <VAR NAME="ORACLE_HOSTNAME" TYPE="String" VAL="Nacho-Acer.orfisaikc.local" COMPUTE_AT_CLONE="T" USER_INPUT="F">
+      <DESC LANG="es">Esta variable contiene el nombre de host del sistema como la ha definido el usuario.</DESC>
+      <DESC LANG="en">Esta variable contiene el nombre de host del sistema como la ha definido el usuario.</DESC>
+   </VAR>
+   <VAR NAME="METALINK_PASSWORD" TYPE="String" SECURE="T" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Esta variable representa la contraseña correspondiente a Oracle Metalink.</DESC>
+      <DESC LANG="en">Esta variable representa la contraseña correspondiente a Oracle Metalink.</DESC>
+   </VAR>
+   <VAR NAME="DECLINE_SECURITY_UPDATES" TYPE="Boolean" VAL="false" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">S_DECLINE_SECURITY_UPDATES_DESC</DESC>
+      <DESC LANG="en">S_DECLINE_SECURITY_UPDATES_DESC</DESC>
+   </VAR>
+   <VAR NAME="SECURITY_UPDATES_VIA_METALINK" TYPE="Boolean" VAL="false" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">S_SECURITY_UPDATES_VIA_METALINK_DESC</DESC>
+      <DESC LANG="en">S_SECURITY_UPDATES_VIA_METALINK_DESC</DESC>
+   </VAR>
+   <VAR NAME="PROXY_PWD" TYPE="String" SECURE="T" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Contraseña del proxy utilizado para conectar a Oracle Metalink.</DESC>
+      <DESC LANG="en">Contraseña del proxy utilizado para conectar a Oracle Metalink.</DESC>
+   </VAR>
+   <VAR NAME="CLUSTER_NODES" TYPE="StringList" VAL="{}" COMPUTE_AT_CLONE="T" USER_INPUT="F">
+      <DESC LANG="es">Esta variable representa los nombres de nodos de cluster seleccionados por el usuario para la instalación.</DESC>
+      <DESC LANG="en">Esta variable representa los nombres de nodos de cluster seleccionados por el usuario para la instalación.</DESC>
+   </VAR>
+   <VAR NAME="ToplevelComp" TYPE="String" VAL="IntegrationAPI, 17.2.0.0.0, >0.0.0.0.0, [ 912 ][OH:2]" COMPUTE_AT_CLONE="F" USER_INPUT="F"/>
+   <VAR NAME="TLDepModes" TYPE="StringList" VAL="{install_type_1}" COMPUTE_AT_CLONE="F" USER_INPUT="F"/>
+   <VAR NAME="PROXY_USER" TYPE="String" VAL="" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Nombre de usuario del proxy utilizado para conectar a Oracle Metalink.</DESC>
+      <DESC LANG="en">Nombre de usuario del proxy utilizado para conectar a Oracle Metalink.</DESC>
+   </VAR>
+   <VAR NAME="REGISTRATION_KEYWORD" TYPE="String" VAL="regKey" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Valor de la palabra clave de registro. Se puede obtener de la dirección URL especificada en la página Registro del Producto.</DESC>
+      <DESC LANG="en">Valor de la palabra clave de registro. Se puede obtener de la dirección URL especificada en la página Registro del Producto.</DESC>
+   </VAR>
+   <VAR NAME="OUI_HOSTNAME" TYPE="String" VAL="Nacho-Acer.orfisaikc.local" COMPUTE_AT_CLONE="T" USER_INPUT="F">
+      <DESC LANG="es">Esta variable contiene el nombre de host del sistema como la ha definido el usuario.</DESC>
+      <DESC LANG="en">Esta variable contiene el nombre de host del sistema como la ha definido el usuario.</DESC>
+   </VAR>
+   <VAR NAME="PROXY_HOST" TYPE="String" VAL="" COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Host del proxy utilizado para conectar a Oracle Metalink.</DESC>
+      <DESC LANG="en">Host del proxy utilizado para conectar a Oracle Metalink.</DESC>
+   </VAR>
+   <VAR NAME="UNIX_GROUP_NAME" TYPE="String" VAL=" " COMPUTE_AT_CLONE="F" USER_INPUT="F">
+      <DESC LANG="es">Grupo Unix que se va a definir para el directorio de inventario. Sólo válido en plataformas Unix.</DESC>
+      <DESC LANG="en">Grupo Unix que se va a definir para el directorio de inventario. Sólo válido en plataformas Unix.</DESC>
+   </VAR>
+   <VAR NAME="ORACLE_HOME" TYPE="String" VAL="C:\P6IntegrationAPI_1" COMPUTE_AT_CLONE="T" USER_INPUT="T">
+      <DESC LANG="es">Ruta de acceso completa del directorio raíz de Oracle.</DESC>
+      <DESC LANG="en">Ruta de acceso completa del directorio raíz de Oracle.</DESC>
+   </VAR>
+</SESSION_VARS_INFO>
+<COMP_VAR_INFO>
+<COMP NAME="IntegrationAPI" VER="17.2.0.0.0">
+   <VAR NAME="java_home" TYPE="String" VAL="C:\Program Files\Java\jdk1.8.0_151" COMPUTE_AT_CLONE="T" USER_INPUT="T">
+      <DESC LANG="es">java_home</DESC>
+      <DESC LANG="en">java_home</DESC>
+   </VAR>
+</COMP>
+</COMP_VAR_INFO>
+<EXT_DEP_INFO/>
+</CLONE_INFO>

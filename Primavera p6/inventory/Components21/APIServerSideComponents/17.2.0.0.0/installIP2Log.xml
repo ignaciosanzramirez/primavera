@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\admin.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\dbconfig.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="stringReplace" INSTALL="T" DEINSTALL="F">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="replaceFileName" VAL="%ORACLE_HOME%\genkey.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="searchString" VAL="MY_INTG_HOME" TYPE="String" SECURE="F"/>
+<INPUT NAME="replaceString" VAL="%ORACLE_HOME%" TYPE="String" SECURE="F"/>
+<INPUT NAME="ignoreCase" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="Database Configuration" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\dbconfig.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\dbconfig.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="ntCreateItem" INSTALL="T" DEINSTALL="T">
+<LIB NAME="ntw32FoldersActions" VER="10.2.0.3.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="groupName" VAL="%startMenuGroupFolder%" TYPE="String" SECURE="F"/>
+<INPUT NAME="itemName" VAL="Primavera Administrator" TYPE="String" SECURE="F"/>
+<INPUT NAME="exeName" VAL="%ORACLE_HOME%\admin.cmd" TYPE="String" SECURE="F"/>
+<INPUT NAME="paramName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="workingDir" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="iconFileName" VAL="%ORACLE_HOME%\images\dbconfig.ico" TYPE="String" SECURE="F"/>
+<INPUT NAME="icon" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="cmdType" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="multiparamName" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="runAsAdmin" VAL="null" TYPE="" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>

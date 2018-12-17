@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><BootStrap xmlns:xalan="http://xml.apache.org/xslt">
+   <Database>
+      <URL>jdbc:sqlserver://localhost\sqlexpress:1433;database=ppm1712local;</URL>
+      <UserName>pubuser</UserName>
+      <Password>AE04D18A8D7F8C6E6B2CDB679046AB69EF79C7BB00B02941BD83B04468AFE411F2AAAE04</Password>
+      <PublicGroupId>1</PublicGroupId>
+   </Database>
+   <CfgVersion>17.1200</CfgVersion>
+   <Configurations>
+      <BRE name="Primavera P6 Configuration" instances="1" logDir="C:\P6IntegrationAPI_1/PrimaveraLogs"/>
+   </Configurations>
+</BootStrap>

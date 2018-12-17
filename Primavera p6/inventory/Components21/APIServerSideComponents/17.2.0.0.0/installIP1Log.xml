@@ -1,0 +1,314 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Copyright (c) 1999, 2008, Oracle. All rights reserved. -->
+<!-- Do not modify the contents of this file by hand. -->
+<ACTION_LIST>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup14" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="750" TYPE="String" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp6" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\admin.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\dbconfig.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\genkey.sh" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup13" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp7" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\BRE.policy" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\keystore" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\admin.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\dbconfig.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\genkey.cmd" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup12" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp8" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\quartz-all-1.7.3.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup11" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp9" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\wstx-asl-3.1.2.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup10" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp10" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\jide-common.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\jide-grids.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup9" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp11" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\commons-lang.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\commons-logging.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\commons-primitives-1.0.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup8" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp12" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\mail.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup7" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp13" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\log4j.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup6" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp14" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\ojdbc6.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup5" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp15" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-aop.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-beans.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-context.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-core.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-expression.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-instrument.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-jdbc.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-jms.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-oxm.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-transaction.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\spring-web.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup4" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp16" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\aopalliance.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup3" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp17" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\sqljdbc.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup2" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp18" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\jms_1.1.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+<ACTION NAME="copyGroupFromJar" INSTALL="T" DEINSTALL="T">
+<LIB NAME="fileActions" VER="10.2.0.6.0" REP_VER="0.0" MIN_INST_VER="1.5.0.0.0"/>
+<INPUT_LIST>
+<INPUT NAME="selectedNodes" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyGroup" VAL="filegroup1" TYPE="String" SECURE="F"/>
+<INPUT NAME="permissions" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="owner" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="group" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="copyAsText" VAL="null" TYPE="" SECURE="F"/>
+<INPUT NAME="JarLoc" VAL="C:\Users\NACHO~1.ORF\AppData\Local\Temp\OraInstall2018-09-18_04-46-04PM\temp19" TYPE="String" SECURE="F"/>
+<INPUT NAME="DllGroup" VAL="false" TYPE="Boolean" SECURE="F"/>
+</INPUT_LIST>
+<LOG_OBJ_LIST>
+<LOG_OBJECTS_VECTOR>
+<INPUT NAME="destination" VAL="%ORACLE_HOME%\lib\intgserver.jar" TYPE="String" SECURE="F"/>
+</LOG_OBJECTS_VECTOR>
+</LOG_OBJ_LIST>
+</ACTION>
+</ACTION_LIST>
